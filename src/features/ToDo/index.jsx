@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import Todolist from './components/ToDoList';
 
 TodoFeature.propTypes = {
     
@@ -21,9 +23,8 @@ function TodoFeature(props) {
     ]
     return (
         <div>
-            {todoList.map((e => (
-                <p key={e.id}>{e.title}</p>
-            )))}
+            <h3>To Do List</h3>
+            <Todolist props = {todoList} />
         </div>
     );
 }
