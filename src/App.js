@@ -6,6 +6,7 @@ import AlbumFeature from './features/Album';
 import Courses from './features/F8-practices';
 import ColorBox from './features/ColorBox';
 import Counter from './features/Counter';
+import TodoFeature from './features/ToDo';
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
     <div className="App">
       {/* <AlbumFeature/> */}
       {/* <Courses /> */}
-      <ColorBox />
-      <Counter />
+      {/* <ColorBox />
+      <Counter /> */}
+      <TodoFeature />
     </div>
   );
 }
